@@ -23,6 +23,22 @@ a:hover {
   color: #eaeaea;
 }
 
+.buy,
+.newsletter button {
+  background-color: #f36b6f;
+  padding: 5px;
+  border-radius: 10px;
+  transition: all .5s;
+  color: white;
+}
+
+
+.buy:hover {
+  padding: 8px;
+  font-weight: bold;
+}
+
+
 /* Section Styles */
 
 .main-nav {
@@ -54,12 +70,17 @@ a:hover {
   padding: 5px 10px 10px 10px;
 }
 
-.nav a {
+.nav a,
+textarea,
+input[type="radio"],
+select {
   transition: all .5s;
+  -webkit-transition: all .5s;
 }
 
 .nav a:hover {
-  color: white
+  color: #f36b6f;
+  text-decoration: underline;
 }
 
 header {
@@ -69,6 +90,19 @@ header {
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+}
+
+.bannerspan1 {
+  font-size: 70px;
+  padding-top: 20px;
+  color: black;
+  margin-bottom: 25px;
+}
+
+.bannerspan2 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #781125;
 }
 
 .tag {
@@ -153,24 +187,30 @@ a.social {
   width: 30px;
   height: 30px;
   background-size: 30px 30px;
-  opacity: .4;
+  opacity: .8;
   transition: all .5s;
 }
 
 a.twitter {
   background-image: url(../img/twitter-32.png);
+  text-indent:-9999px;
 }
 
 a.youtube {
   background-image: url(../img/youtube-32.png);
+  text-indent:-9999px;
 }
 
 a.spotify {
   background-image: url(../img/spotify-32.png);
+  text-indent:-9999px;
 }
 
 a.social:hover {
   opacity: 1;
+  -ms-transform: scale(1.2, 1.2); /* IE 9 */
+  -webkit-transform: scale(1.2, 1.2); /* Chrome, Safari, Opera */
+   transform: scale(1.2, 1.2);
 }
 .clearfix {
   clear: both;

@@ -10,6 +10,17 @@ form {
   text-align: left;
   display: inline-block;
 }
+fieldset {
+  border-color:  #f36b6f;
+  border-width: 3px;
+}
+
+label[for="favSong"]{
+  display: inline-block;
+  margin: 16px 0 16px;
+}
+
+
 
 .container{
   text-align: center;
@@ -19,6 +30,49 @@ form {
 
 }
 
+.newsletter legend {
+  text-align: left;
+}
+
+fieldset {
+  padding: 20px;
+}
+
+.newsletter input {
+  margin-bottom: 10px;
+}
+
+.newsletter button {
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.newsletter button:hover,
+.newsletter button:focus {
+ transform: scale(1.2, 1.2);
+ -ms-transform: scale(1.2, 1.2);
+ -webkit-transform: scale(1.2, 1.2); 
+}
+
+input:focus {
+  background-color: #f36b6f;
+}
+
+input[type="radio"]:focus,
+input[type="radio"]:checked {
+  transform: scale(1.5, 1.5);
+  -ms-transform: scale(1.5, 1.5);
+ -webkit-transform: scale(1.5, 1.5);
+}
+
+
+textarea:focus,
+select:focus {
+  transform: scale(1.2, 1.2);
+ -ms-transform: scale(1.2, 1.2);
+ -webkit-transform: scale(1.2, 1.2);
+}
 
 /* Styles for larger screens */
 @media screen and (min-width: 840px) {
