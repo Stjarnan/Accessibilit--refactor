@@ -10,7 +10,7 @@
   </head>
 
   <body>
-    <div class="main-nav">
+    <div class="main-nav" role="navigation">
       <ul class="nav">
         <li class="name"><a href="index.html">Accessible Frog</a></li>
         <li><a href="tour.html" >Tour</a></li>
@@ -18,12 +18,12 @@
       </ul>
     </div>
 
-    <header>
+    <header role="banner">
        <h1 class="bannerspan1">ACCESSIBLE FROG</h1>
        <span class="bannerspan2">we make awesome music</span>
     </header>
 
-    <main>
+    <main role="main">
       <h2 class= "heading">Survey</h2>
       <div class="card">
         <div class="flex">
@@ -68,11 +68,11 @@
             <div class="container">
               <form class="newsletter">
                 <fieldset>
-                  <legend>Sign up for our newsletter!</legend>
+                  <legend id="signUpLegend">Sign up for our newsletter!</legend>
                   <label for="Name">Name: </label><input type ="text" name="textfield" id="Name"><br>
                   <label id="Email">Email: </label><input type ="email" name="textfield" id="Email"><br>
                   <label for="retypeEmail">Retype Email: </label><input type ="email" name="textfield" id="retypeEmail"><br>
-                  <button type="submit">Sign Up</button>
+                  <button type="submit" aria-describedby="signUpLegend">Sign Up</button>
                 </fieldset>  
               </form>
             </div>
@@ -80,7 +80,7 @@
       </div>
     </main>
 
-    <footer>
+    <footer role="contentinfo">
       <ul>
         <li><a href="#" class="social twitter"><img src= "img/twitter-32.png"></a></li>
         <li><a href="#" class="social youtube"><img src= "img/youtube-32.png"></a></li>
