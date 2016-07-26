@@ -15,7 +15,8 @@ fieldset {
   border-width: 3px;
 }
 
-label[for="favSong"]{
+label[for="favSong"],
+label[for="albums"]{
   display: inline-block;
   margin: 16px 0 16px;
 }
