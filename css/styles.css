@@ -91,11 +91,12 @@ header {
   overflow: hidden;
   padding-top: 60px;
   height: 350px;
+  background-color: white;
 }
 
 .bannerspan1 {
   font-size: 70px;
-  padding-top: 20px;
+  padding-top: 55px;
   color: black;
   margin-bottom: 25px;
 }
@@ -123,7 +124,7 @@ header .name{
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  color: #781125
+  color: #781125;
 }
 
 .card {
